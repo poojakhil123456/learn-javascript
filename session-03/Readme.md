@@ -57,4 +57,4 @@ Type conversion (also known as type coercion) in JavaScript is the process of co
 JavaScript automatically converts data types when needed.
 
 2. Explicit Type Conversion (Manual)
-You can manually convert data types using built-in JavaScript functions.
+You can manually convert data types using built-in JavaScript functions...

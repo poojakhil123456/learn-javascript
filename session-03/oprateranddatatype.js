@@ -103,3 +103,74 @@ delete userdetails.phoneno;
 
 console.log(userdetails);
 //  name: 'pooja', city: 'jaipur', addresss: 'vaishali' }
+
+// rest operator
+function sum(...numbers){
+return numbers.reduce((Acc , num )=>Acc+num);
+}
+console.log(sum(10,20,30,40));
+// output - 100;
+
+// Comma Operator (,)
+let counting = (1,2,3);
+console.log(counting);
+// output - 3
+
+// datatype in  js
+// primitive datatype
+// 1. string 
+ let fruit = "apple";
+ console.log(fruit); // output - apple
+
+//  2. number
+let amount=1230.90;
+let finalGst=amount * 0.18;
+let finalAmount=amount + finalGst;   // output - 1650
+
+//  3. bigint
+let bignum = BigInt("90004783949999999999");
+console.log(bignum);  //output - 90004783949999999999n
+
+//  4. boolean
+let p = 10;
+let m = 20;
+
+console.log(p > m);  // false
+console.log(p < m);  // true
+
+// 5. Symbol
+let userid = Symbol("id");
+let obj = {
+  user : "pooja",
+  city: "delhi",
+  age : "20",
+  [userid] : 100
+}
+console.log(obj);  // { user: 'pooja', city: 'delhi', age: '20', [Symbol(id)]: 100 }
+
+//Refrence Data Type in javaScript (Store in heap memory)
+// 1. Object
+let persons = {
+  name: "Amit",
+  age: 30,
+  city: "Delhi"
+};
+
+console.log(persons.name);  // Output: Amit
+
+//  2. array 
+let arr1 = [1, 2, 3];
+let arr2 = arr1; 
+
+arr2.push(4);
+
+console.log(arr1); // [1, 2, 3, 4]
+console.log(arr2); // [1, 2, 3, 4]
+ 
+// 3. function
+function greet() {
+  console.log("Hello!");
+}
+
+let newGreet = greet;  
+newGreet();  // Hello!

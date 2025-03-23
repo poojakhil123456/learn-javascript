@@ -2,7 +2,7 @@ this commit for Session-3
 
  i have learn about that what is operater , how its work and how many types operaters in javascript. Session 
  In JavaScript, operators are special symbols or keywords that perform operations on values (operands). Operators allow you to manipulate data,
- perform calculations, and control program logic. 
+ perform calculations, and control program logic.. 
 
  Types of JavaScript Operators.
     

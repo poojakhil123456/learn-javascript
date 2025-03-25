@@ -5,6 +5,7 @@ i have learnt about loops, Why loops are important in JavaScript and How loops w
 Loops are essential in JavaScript because they allow us to execute a block of code multiple times without unnecessary repetition. Instead of writing the same code repeatedly, 
 we use loops to handle tasks dynamically.
 
+
 Types of Loops in JavaScript - for, while, do...while, and forEach Loops 
 
 1. for Loop - A for loop is used when you know exactly how many times you need to repeat a task. It’s structured in three parts:

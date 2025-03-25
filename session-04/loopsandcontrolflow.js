@@ -113,4 +113,47 @@ switch(day){
 }
 // output - Wednesday
 
+// callback function - 
+function greet(name, callback) {
+  console.log("Hello, " + name);
+  callback();
+}
+
+function sayBye() {
+  console.log("Goodbye!");
+}
+
+greet("John", sayBye);
+// output - Hello, John
+// Goodbye! 
+
+// high-order function 
+
+// 1. map() 
+const numbers = [1, 2, 3, 4, 5];
+
+const squaredNumbers = numbers.map(num => {
+  return num * num;  
+});
+
+console.log(squaredNumbers);
+// output - [ 1, 4, 9, 16, 25 ]
+
+// 2. filter()
+const number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const evenNumbers = number.filter(num => num % 2 === 0);
+
+console.log(evenNumbers); 
+// Output: [2, 4, 6, 8, 10] 
+
+// 3. reduce()
+const numberss = [1, 2, 3, 4, 5];
+
+const sum = numberss.reduce((acc, num) => {
+  return acc + num;
+}, 0);
+
+console.log(sum); 
+// Output: 15
 

@@ -13,6 +13,7 @@ Higher Order Function?
 A function take a another function in arguments and it return a function as itself
 
 Arrow Function ?
+
 A Arrow Function is a modern way to write a function its make code easy to understand and make flexiblity
 and it is not fully hoisted we can access only after declaration function and we cannot invoke this function before declaration.
 Arrow functions (=>) are a shorter and cleaner way to write functions in JavaScript. They were introduced in ES6 and help make code more concise

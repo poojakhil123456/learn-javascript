@@ -14,6 +14,7 @@ let result=aboutUser("this is parametterized function");
 console.log(result); // Welcome this is parametterized function!
 
 // Function with Default Parameters
+
 function greet(name = "neha") {
     console.log(`Hello, ${name}!`);
 }
@@ -156,7 +157,7 @@ function createAccount(){
         console.log("Delivering to", customer);
     };
 
-    
+
     function Clock() {
         this.time = 0;
     
